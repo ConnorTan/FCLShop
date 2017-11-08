@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{ background: font-family:"微软雅黑","宋体";}
+a{ text-decoration:none; color:black;}
+li{ list-style-type:none;}
+.login{ background:url(image/bj.jpg);}
+.xt{ width:400px; height:400px; margin:100px auto; position:relative; background:url(../image/bg.jpg) center center; border-radius:5px;}
+.xt h3{ width:150px; font-size:24px; position:absolute; left:125px; top:30px; }
+.adimin{ position:absolute;left:50px;top:100px; width:300px; height:40px; font-size:24px; line-height:40px; border:0px; border-radius:2px;}
+.password{ position:absolute; left:50px; top:170px;  width:300px; height:40px; font-size:24px; line-height:40px; border:0px;border-radius:2px;}
+.yam_1{ position:absolute; left:50px; top:240px;  width:200px; height:40px; font-size:24px; line-height:40px; border:0px;border-radius:2px;}
+.yam_2{ position:absolute; left:253px; top:240px;  width:100px; height:40px;}
+.dl{ position:absolute; left:50px; top:320px; width:300px; height:40px; background:#90F; border:0px; border-radius:5px;}
+
+/*-----------------------------index.html---------------------------------------------*/
+.header{height:70px; background:#90F;}
+.header h2{ font-size:24px; margin-left:50px; line-height:70px; color:white;}
+
+/*-------------------------------adduser.html------------------------------*/
+.DaoHangTiao{height:40px; background:#90F; line-height:40px; font-size:14px;}
+.DaoHangTiao a{ padding-left:30px;}
+.DaoHangTiao2{ height:30px; line-height:30px; border:1px solid #90F; background:#90F; font-size:14px;}
+.DaoHangTiao2 span{margin-left:30px; font-weight:bold;}
+.TianJiaYongHu{ position:relative;}
+.NiCheng,.XingBei,.MiMa1,.MiMa2{ height:40px; width:950px; position:absolute;}
+.NiCheng{ left:100px; top:40px;}
+.XingBei{ left:100px; top:105px;}
+.MiMa1{ left:100px; top:170px;}
+.MiMa2{ left:100px; top:235px;}
+.TianJiaYongHu span:nth-child(1){ position:absolute; left:60px; top:53px;}
+.TianJiaYongHu span:nth-child(3){ position:absolute; left:60px; top:117px;}
+.TianJiaYongHu span:nth-child(5){ position:absolute; left:60px; top:181px;}
+.TianJiaYongHu span:nth-child(7){ position:absolute; left:29px; top:244px;}
+.TiJiao{ position:absolute; left:100px; top:300px; width:100px; height:40px; background:#90F; color:white; border-radius:5px; border:0px;}
+.content{border:1px solid #90F; width:1120px;height:400px; margin:20px auto;}
+/*---------------------------------userlist.html------------------------------------------*/
+.userlist_ul1 li{ float:left; border:1px solid #90F; width:370px; height:30px; line-height:30px; text-align:center;}
+.FenYe{ width:180px; margin:0px auto;}
+.FenYe ul li{ float:left; width:40px; text-align:center}
+/*--------------------------------addmerchandise.html--------------------------------------*/
+.XingMing,.BianHao,.ShiChangJia,.ShangPinJia,.YanSe,.ChiMa,.KuCun,.ShangChuan{ height:40px; width:950px; position:absolute;}
+.XingMing{ left:100px; top:40px;}
+.ShangChuan{ left:100px; top:105px; border:1px solid #999;}
+.BianHao{ left:100px; top:170px;}
+.ShiChangJia{ left:100px; top:235px;}
+.ShangPinJia{ left:100px; top:300px;}
+.YanSe{ left:100px; top:365px;}
+.ChiMa{ left:100px; top:430px;}
+.KuCun{ left:100px; top:495px;}
+.TIjiao2{ left:100px; top:560px;}
+.TianJiaYongHu span:nth-child(9){ position:absolute; left:29px; top:312px;}
+.TianJiaYongHu span:nth-child(11){ position:absolute; left:60px; top:378px;}
+.TianJiaYongHu span:nth-child(13){ position:absolute; left:60px; top:442px;}
+.TianJiaYongHu span:nth-child(15){ position:absolute; left:60px; top:506px;}
+.TiJiao2{ position:absolute; left:100px; top:560px; width:100px; height:40px; background:#90F; color:white; border-radius:5px; border:0px;}
+.content2{border:1px solid #90F; width:1120px;height:650px; margin:20px auto;}
+/*--------------------------------merchandiselist.html-------------------------------------*/
+.merchandiselist_ul1 li{ float:left; border:1px solid #90F; width:121px; height:50px; line-height:50px; text-align:center;}
+.FenYe2{ width:400px; margin:0px auto; margin-top:20px}
+.FenYe2 ul li{ float:left; width:80px; text-align:center}
+/*------------------------------------addnews.html-----------------------------------------*/
+.BiaoTi,.NeiRong{ height:40px; width:950px; position:absolute;}
+.BiaoTi{ left:100px; top:40px;}
+.NeiRong{ left:100px; top:105px;}
+#NeiRong{ position:absolute; left:60px; top:117px;}
+.TiJiao3{ position:absolute; left:100px; top:170px; width:100px; height:40px; background:#90F; color:white; border-radius:5px; border:0px;}
+.content3{border:1px solid #90F; width:1120px;height:260px; margin:20px auto;}
+/*------------------------------------newslist.html------------------------------------------*/
+.newslist_ul1 li{ float:left; border:1px solid #90F; width:302px; height:50px; line-height:50px; text-align:center;}
+/*------------------------------------addimage.html------------------------------------------*/
+.MingZi,.TuPian{ height:40px; width:950px; position:absolute;}
+.MingZi{ left:100px; top:40px;}
+.TuPian{ left:100px; top:105px; border:1px solid #999;}
+/*------------------------------------imagelist.html-------------------------------------------*/
+.imagelist_ul1 li{ float:left; border:1px solid #90F; width:371px; height:85px; line-height:85px; text-align:center;}
+.imagelist_ul1 li:nth-child(1),.imagelist_ul1 li:nth-child(2),.imagelist_ul1 li:nth-child(3){ height:50px; line-height:50px;}
